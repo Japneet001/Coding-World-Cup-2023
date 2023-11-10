@@ -10,8 +10,8 @@
     So, every day, (106) = 4 extra runs are made. After 3 days, the total number of extra runs will be 3*4 = 12.
 '''
 
-from typing import List
 
+from typing import List
 def extraRuns(n: int, m: int, x: int) -> int:
     # Write your code here.
     if ((n-m)*x > 0):
